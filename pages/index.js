@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Reminder from "./components/reminder"
+import Reminder from "../components/reminder"
 
 import styles from '../styles/Home.module.css'
 import { Provider } from 'react-redux'
@@ -16,9 +16,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <Reminder/>
-        
-       
-
       </main>
 
       
